@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @santiago SALA
+ */
+public class Taller1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+        int c = 0;
+        int[] lista = new int[5];
+        Scanner teclado = new Scanner(System.in);
+        for(c=0; c<lista.length; c++){
+            System.out.println("digite un elemento: ");
+            lista[c] = teclado.nextInt();}
+        for(c=0; c<lista.length; c++){
+            System.out.println("Lista: "+lista[c]);
+        } 
+    }
+    
+}   
